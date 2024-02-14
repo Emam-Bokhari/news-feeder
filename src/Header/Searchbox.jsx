@@ -1,10 +1,11 @@
 import { Fragment } from "react"
+import searchIcon from "../assets/icons/search.svg"
 
 const Searchbox = () => {
     return (
         <Fragment>
             <div className="flex items-center space-x-3 lg:space-x-8">
-                <img src="./assets/icons/search.svg" />
+                <img src={searchIcon} />
             </div>
         </Fragment>
     )

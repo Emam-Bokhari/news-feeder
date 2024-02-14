@@ -3,7 +3,9 @@ import Header from "./Header/Header"
 import NewsBoard from "./NewsBoard/NewsBoard"
 import Footer from "./Footer"
 
+
 const Page = () => {
+    
     return (
         <Fragment>
             <Header />

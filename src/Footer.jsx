@@ -1,4 +1,5 @@
 import { Fragment } from "react"
+import logoLightIcon from "./assets/logo_light.png"
 
 const Footer=()=>{
     return(
@@ -11,7 +12,7 @@ const Footer=()=>{
                     >
                         <img
                             className="max-md:col-span-2"
-                            src="./assets/logo_light.png"
+                            src={logoLightIcon}
                             alt="lws"
                         />
                         <ul role="list" className="space-y-4">
@@ -120,7 +121,7 @@ const Footer=()=>{
                                 actual economic news.
                             </h3>
                             <p className="mt-2 text-sm leading-6">
-                                All the day's headlines and highlights, direct
+                                All the days headlines and highlights, direct
                                 to you every morning..
                             </p>
                         </div>

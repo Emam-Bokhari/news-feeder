@@ -1,4 +1,5 @@
 import { Fragment } from "react"
+import logoIcon from "../assets/logo.png"
 
 const Logo = () => {
     return (
@@ -6,7 +7,7 @@ const Logo = () => {
             <a href="/">
                 <img
                     className="max-w-[100px] md:max-w-[165px]"
-                    src="./assets/logo.png"
+                    src={logoIcon}
                     alt="Lws"
                 />
             </a>

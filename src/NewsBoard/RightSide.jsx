@@ -1,4 +1,5 @@
 import { Fragment } from "react"
+import thumb from "../assets/thumb.png"
 
 const RightSide=()=>{
     return(
@@ -9,7 +10,7 @@ const RightSide=()=>{
                         <div className="col-span-12 mb-6 md:col-span-8">
                             <img
                                 className="w-full"
-                                src="./assets/thumb.png"
+                                src={thumb}
                                 alt="thumb"
                             />
                             {/* <!-- info --> */}

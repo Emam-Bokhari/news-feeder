@@ -1,4 +1,6 @@
 import { Fragment } from "react"
+import thumbLg from "../assets/thumb_lg.png"
+import thumbSm from "../assets/thumb.png"
 
 const LeftSide=()=>{
     return(
@@ -35,7 +37,7 @@ const LeftSide=()=>{
                         <div className="col-span-12 lg:col-span-8">
                             <img
                                 className="w-full"
-                                src="./assets/thumb_lg.png"
+                                src={thumbLg}
                                 alt="thumb"/>
                             <p className="mt-5 text-base text-[#5C5955]">
                                 Illustration: Karolis Strautniekas
@@ -66,7 +68,7 @@ const LeftSide=()=>{
                         <div className="col-span-12 md:col-span-6">
                             <img
                                 className="w-full"
-                                src="./assets/thumb.png"
+                                src={thumbSm}
                                 alt="thumb"/>
                         </div>
                     </div>
